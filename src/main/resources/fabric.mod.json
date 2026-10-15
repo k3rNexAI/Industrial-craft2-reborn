@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "industrial_reborn",
+  "version": "${version}",
+  "name": "Industrial Reborn",
+  "description": "An original industrial technology mod for Minecraft 26.3.",
+  "authors": ["Industrial Reborn contributors"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.industrialreborn.IndustrialReborn"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
